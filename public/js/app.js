@@ -2,7 +2,7 @@
   angular.module('portfolio', ['ui.router'])
     .config(MainRouter);
 
-    AuthRouter.$inject = ['$stateProvider', '$urlRouterProvider']
+    MainRouter.$inject = ['$stateProvider', '$urlRouterProvider']
 
     function MainRouter($stateProvider, $urlRouterProvider) {
       $stateProvider
@@ -17,6 +17,10 @@
         .state('resume', {
           url: '/resume',
           templateUrl: '../partials/_resume.html'
+        })
+        .state('connect', {
+          url: '/connect',
+          templateUrl: '../partials/_connect.html'
         })
 
         $urlRouterProvider.otherwise('/');

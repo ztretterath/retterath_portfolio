@@ -25,7 +25,19 @@
   </head>
   <body>
 
-    <h1>Zach Retterath Portfolio</h1>
+    <h1 id='siteTitle'>Zach Retterath Portfolio</h1>
+
+    <!-- NAV BAR -->
+    <nav class="nav-extended black lighten-2">
+      <div class="nav-wrapper">
+        <a ui-sref="home" class="brand-logo"><i class="material-icons">home</i>Home</a>
+        <ul class="right">
+          <li><a ui-sref="projects">Projects</a></li>
+          <li><a ui-sref="resume">Resume</a></li>
+          <li><a ui-sref="connect">Connect</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <ui-view></ui-view>
 
