@@ -1,3 +1,11 @@
-.nav-wrapper {
-  background-color: gray !important;
+#resize {
+  width: 10vw;
+}
+.brand-logo {
+  position: absolute;
+  left: 30px;
+}
+#siteTitle {
+  position: relative;
+  left: 30px;
 }
