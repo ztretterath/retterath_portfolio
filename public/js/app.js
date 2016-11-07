@@ -16,7 +16,7 @@
         })
         .state('resume', {
           url: '/resume',
-          templateUrl: '../partials/_resume.html'
+          templateUrl: './partials/_resume.html'
         })
         .state('connect', {
           url: '/connect',
