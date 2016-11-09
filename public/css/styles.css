@@ -19,6 +19,16 @@
   justify-content: space-between;*/*/
 }
 
+p {
+  font-size: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
 .contact {
   text-align: center;
   display: flex;
@@ -40,6 +50,7 @@
   margin: 40px;
 }
 
+
 .icon {
   font-size: 6rem;
   padding: 20px;
@@ -57,9 +68,10 @@
   justify-content: space-around;
 }
 
-.card:hover {
+.card .projects:hover {
   transform: scale(1.05);
 }
+
 
 .btn-large:hover {
   background-color: grey;
