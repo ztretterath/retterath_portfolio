@@ -1,11 +1,7 @@
 //Express
 var express = require('express');
 var app = express();
-
 var path = require('path');
-
-
-// Models
 
 //Debugging
 var logger = require('morgan');
