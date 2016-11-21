@@ -19,8 +19,27 @@
   justify-content: space-between;*/*/
 }
 
+#resume {
+  display: flex;
+  justify-content: center;
+  transform: scale(1.05);
+}
+
 p {
   font-size: 20px;
+}
+
+
+.fadein {
+  right: 20px;
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+.fadein img {
+  position: relative;
+  text-align: center;
 }
 
 .img {
@@ -57,9 +76,14 @@ p {
 }
 
 .aboutMe {
-  margin: 20px;
+  margin: auto;
   padding: 30px;
   text-align: center;
+}
+
+.homeText {
+  position: relative;
+  left: auto;
 }
 
 .card {
