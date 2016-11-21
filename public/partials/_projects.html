@@ -1,51 +1,83 @@
 <h2 id="siteTitle">Projects</h2>
 
+<h6 id="siteTitle">***Click for details</h6>
 <div id="projects">
-  <!-- <div class="row"> -->
-    <a href="https://wanderluster.herokuapp.com/#/">
-     <div class="col s6 m3">
-       <div class="card projects black">
-         <div class="card-content white-text">
-           <span class="card-title"><strong>Wanderluster</strong></span>
+   <div class="col s6 m3">
+     <div class="card projects black">
+       <div class="card-content white-text">
+         <span class="card-title" ng-click="showProj1 = ! showProj1"><strong>Name of Thrones</strong></span>
+         <div ng-show="showProj1">
            <p class='projectDescription'>
-             Plan your next adventure with Wanderluster! While interacting with the OpenWeatherMap API, Wanderluster uses the entire MEAN stack to show the current weather at cities the user has visited and would like to visit. Coming soon - blog posts to share adventures with your frineds and family!
+             Name of thrones was created to keep track of all the characters from that show the whole world seems to know. Whether you take notes while reading or during the television series, Name of Thrones will help keep your head from spinning. NoT utilizes the MEAN stack and RESTful routes to deliver fast state switches with two-way data binding.
            </p>
+           <a href="https://damp-stream-38293.herokuapp.com/#/">
+             <h5>Click for deployed app...</h5>
+           </a>
            <div class="img">
-             <img src="images/wanderluster.png" alt="wanderluster app" />
+             <img src="images/nameofthrones.png" alt="nameOfThrones app" />
            </div>
          </div>
        </div>
      </div>
-    </a>
-    <a href="https://github.com/ztretterath/soccer_mom">
-      <div class="col s6 m3">
-       <div class="card projects black">
-         <div class="card-content white-text">
-           <span class="card-title"><strong>Soccer Mom</strong></span>
-           <p class='projectDescription'>
-             As a child I never considered the effort required to organize a snack list and share snacks between parents. Enter Soccer Mom Companion. SMC aims to relieve the stress of the Saturday snack predicament. The app utilizes a mongo database and with the magic of Mongoose, JavaScript, HTML5, and CSS3 allows users to create usernames and passwords and begin sharing snack ideas and also to view a calendar (work in-progress) where game times and snacks are compiled.
-           </p>
-           <div class="img">
-             <img src="images/soccermom.png" alt="soccermom app" />
-           </div>
+   </div>
+
+  <div class="col s6 m3">
+   <div class="card projects black">
+     <div class="card-content white-text">
+       <span class="card-title" ng-click="showProj2 = ! showProj2"><strong>Wanderluster</strong></span>
+       <div ng-show="showProj2">
+         <p class='projectDescription'>
+           Plan your next adventure with Wanderluster! While interacting with the OpenWeatherMap API, Wanderluster uses the entire MEAN stack to show the current weather at cities the user has visited and would like to visit. Coming soon - blog posts to share adventures with your frineds and family!
+         </p>
+         <a href="https://wanderluster.herokuapp.com/#/">
+           <h5>Click for deployed app...</h5>
+         </a>
+         <div class="img">
+           <img src="images/wanderluster.png" alt="wanderluster app" />
          </div>
        </div>
      </div>
-    </a>
-    <a href="https://github.com/ztretterath/connect_four">
-     <div class="col s6 m3">
-       <div class="card projects black">
-         <div class="card-content white-text">
-           <span class="card-title"><strong>Connect Four</strong></span>
-           <p class='projectDescription'>
-             Welcome to every kid's favorite, indoor-recess activity reimagined for a new generation of players. Connect four highilghts the skills obtained in my first week of coding. This adaptaion utilizes jQuery to give the user complete control over the game board. Coming soon - play against the computer!
-           </p>
-           <div class="img">
-             <img src="images/connectfour.png" alt="connect four app" />
-           </div>
+   </div>
+  </div>
+
+
+  <div class="col s6 m3">
+   <div class="card projects black">
+     <div class="card-content white-text">
+       <span class="card-title" ng-click="showProj3 = ! showProj3"><strong>Soccer Mom</strong></span>
+       <div ng-show="showProj3">
+         <p class='projectDescription'>
+           As a child I never considered the effort required to organize a snack list and share snacks between parents. Enter Soccer Mom Companion. SMC aims to relieve the stress of the Saturday snack predicament. The app utilizes a mongo database and with the magic of Mongoose, JavaScript, HTML5, and CSS3 allows users to create usernames and passwords and begin sharing snack ideas and also to view a calendar (work in-progress) where game times and snacks are compiled.
+         </p>
+         <a href="https://github.com/ztretterath/soccer_mom">
+           <h5>Click for GitHub repo...</h5>
+         </a>
+         <div class="img">
+           <img src="images/soccermom.png" alt="soccermom app" />
          </div>
        </div>
      </div>
-   </a>
-  <!-- </div> -->
+   </div>
+ </div>
+
+
+ <div class="col s6 m3">
+   <div class="card projects black">
+     <div class="card-content white-text">
+       <span class="card-title" ng-click="showProj4 = ! showProj4"><strong>Connect Four</strong></span>
+       <div ng-show="showProj4">
+         <p class='projectDescription'>
+           Welcome to every kid's favorite, indoor-recess activity reimagined for a new generation of players. Connect four highilghts the skills obtained in my first week of coding. This adaptaion utilizes jQuery to give the user complete control over the game board. Coming soon - play against the computer!
+         </p>
+         <a href="https://github.com/ztretterath/connect_four">
+           <h5>Click for GitHub repo...</h5>
+         </a>
+         <div class="img">
+           <img src="images/connectfour.png" alt="connect four app" />
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
 </div>
