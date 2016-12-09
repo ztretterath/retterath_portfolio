@@ -25,6 +25,10 @@
   transform: scale(1.04);
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-size: 20px;
 }
