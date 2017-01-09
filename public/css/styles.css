@@ -13,6 +13,7 @@
 #projects {
   font-size: 20px;
   padding: 20px;
+  text-align: left;
   /*position: absolute;
   padding-left: 140px;
   /*display: flex;
@@ -33,6 +34,9 @@ p {
   font-size: 20px;
 }
 
+.projectDescription {
+  font-size: 1.7vw;
+}
 
 .fadein {
   right: 20px;
